@@ -21,6 +21,8 @@ const renderPokemonList = () => {
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/" +
         url.split("/")[6] +
         ".png";
+    
+    document.body.style.backgroundColor = '#72d572';
 
     const card = document.createElement("div");
     card.setAttribute("class", "card col-md-3");
@@ -40,7 +42,7 @@ const renderPokemonList = () => {
     button.setAttribute("class", "btn btn-primary");
     button.innerText = "รายละเอียด";
     button.addEventListener("click", () => {
-        showPokemonDetails(name);
+    showPokemonDetails(name);
     });
 
     nameDiv.appendChild(title);

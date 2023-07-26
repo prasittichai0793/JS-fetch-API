@@ -4,13 +4,17 @@ margin-top: 5px;
 
 .card {
 margin: center;
+padding: 10px;
 text-align: center;
+box-shadow: 0 0px 10px s0 rgba(0, 174, 255);
 }
 
 .card-img-top {
 width: 150px;
 height: 150px;
 object-fit: contain;
+background-color: rgb(0, 174, 255);
+box-shadow: 0 0px 10px 0 rgba(0, 174, 255);
 }
 
 .modal-content {
